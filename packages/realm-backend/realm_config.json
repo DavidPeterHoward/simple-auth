@@ -3,5 +3,6 @@
     "config_version": 20210101,
     "name": "simple-auth",
     "location": "AU",
-    "deployment_model": "LOCAL"
+    "deployment_model": "LOCAL",
+    "environment": "production"
 }
