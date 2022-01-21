@@ -1,0 +1,7 @@
+{
+    "app_id": "simple-auth-grnnh",
+    "config_version": 20210101,
+    "name": "simple-auth",
+    "location": "AU",
+    "deployment_model": "LOCAL"
+}

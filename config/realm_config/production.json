@@ -1,0 +1,18 @@
+{
+  "config.json": {
+    "app_id": "my-app-prod-abcde",
+    "hosting": {
+      "custom_domain": "app.my-app.io",
+      "app_default_domain": "my-app-prod-abcde.mongodbstitch.com"
+    },
+    "custom_user_data_config": {
+      "database_name": "my-app-prod"
+    }
+  },
+  "values/defaultDatabase.json": {
+    "value": "my-app-prod"
+  },
+  "services/mongodb-atlas/rules/*.json": {
+    "database": "my-app-prod"
+  }
+}
