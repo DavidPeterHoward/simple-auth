@@ -6,8 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pull": "realm-cli pull --remote=simple-auth-grnnh",
-    "push": "realm-cli push --remote=simple-auth-grnnh"
+    "push": "realm-cli push --remote=simple-auth-grnnh",
+    "tsc": "tsc"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.10",
+    "deepmerge": "^4.2.2",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.2.0",
+    "path": "^0.12.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/glob": "^7.2.0"
+  }
 }

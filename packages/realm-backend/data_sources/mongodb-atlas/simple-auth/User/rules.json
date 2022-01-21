@@ -1,0 +1,24 @@
+{
+    "collection": "User",
+    "database": "simple-auth",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "_id": {},
+                "email": {},
+                "firstName": {},
+                "lastName": {},
+                "middleName": {},
+                "password": {},
+                "user_id": {}
+            },
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

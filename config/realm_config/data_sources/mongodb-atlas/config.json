@@ -1,0 +1,9 @@
+{
+    "name": "mongodb-atlas",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "simple-auth-template",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    }
+}

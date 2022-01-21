@@ -14,7 +14,7 @@ const appPath = path.resolve(args[1]);
 const destinationPath = path.resolve(args[2]);
 
 console.log(`Copying ${appPath} to ${destinationPath} (overwriting)`);
-fs.removeSync(destinationPath);
+// fs.removeSync(destinationPath);
 fs.copySync(appPath, destinationPath, { overwrite: true });
 
 const mapping = fs.readJSONSync(mappingPath);
@@ -27,3 +27,5 @@ for (const [fileGlob, replacement] of Object.entries(mapping)) {
     fs.writeJSONSync(filePath, mergedContent, { spaces: 2 });
   }
 }
+
+// ts-node --project config/scripts/tsconfig.json config/scripts/search-replace.ts config/realm_config/production.json packages/realm-backend packages/realm-backend
