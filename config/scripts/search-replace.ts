@@ -24,7 +24,7 @@ for (const [fileGlob, replacement] of Object.entries(mapping)) {
     const filePath = path.resolve(destinationPath, relativeFilePath);
     const content = fs.readJSONSync(filePath);
     const mergedContent = deepmerge(content, replacement as any);
-    fs.writeJSONSync(filePath, mergedContent, { spaces: 2 });
+    fs.writeJSONSync(filePath, mergedContent, { spaces: 4 });
   }
 }
 

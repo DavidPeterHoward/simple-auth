@@ -1,18 +1,15 @@
 {
-  "config.json": {
+  "realm_config.json": {
     "app_id": "simple-auth-grnnh",
-    "hosting": {
-      "custom_domain": "app.my-app.io",
-      "app_default_domain": "my-app-prod-abcde.mongodbstitch.com"
-    },
-    "custom_user_data_config": {
-      "database_name": "simple-auth"
-    }
+    "environment": "production"
+  },
+  "auth/custom_user_data.json": {
+    "database_name": "simple-auth"
   },
   "values/defaultDatabase.json": {
     "value": "simple-auth"
   },
-  "services/mongodb-atlas/rules/*.json": {
+  "data_sources/mongodb-atlas/simple-auth/**/rules.json": {
     "database": "simple-auth"
   }
 }
