@@ -4,5 +4,5 @@
     "name": "simple-auth",
     "location": "AU",
     "deployment_model": "LOCAL",
-    "environment": "production"
+    "environment": "development"
 }
