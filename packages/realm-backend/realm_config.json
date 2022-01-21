@@ -1,7 +1,7 @@
 {
     "app_id": "simple-auth-dev-mliqw",
     "config_version": 20210101,
-    "name": "simple-auth",
+    "name": "simple-auth-dev",
     "location": "AU",
     "deployment_model": "LOCAL",
     "environment": "development"

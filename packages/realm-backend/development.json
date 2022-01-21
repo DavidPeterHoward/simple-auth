@@ -1,6 +1,7 @@
 {
   "realm_config.json": {
     "app_id": "simple-auth-dev-mliqw",
+    "name": "simple-auth-dev",
     "environment": "development"
   },
   "auth/custom_user_data.json": {

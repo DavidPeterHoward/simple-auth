@@ -1,6 +1,7 @@
 {
   "realm_config.json": {
     "app_id": "simple-auth-grnnh",
+    "name": "simple-auth",
     "environment": "production"
   },
   "auth/custom_user_data.json": {
