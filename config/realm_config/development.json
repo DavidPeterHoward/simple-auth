@@ -1,0 +1,18 @@
+{
+  "config.json": {
+    "app_id": "simple-auth-dev-mliqw",
+    "hosting": {
+      "custom_domain": "app.my-app.io",
+      "app_default_domain": "my-app-prod-abcde.mongodbstitch.com"
+    },
+    "custom_user_data_config": {
+      "database_name": "simple-auth-dev"
+    }
+  },
+  "values/defaultDatabase.json": {
+    "value": "simple-auth-dev"
+  },
+  "services/mongodb-atlas/rules/*.json": {
+    "database": "simple-auth-dev"
+  }
+}
