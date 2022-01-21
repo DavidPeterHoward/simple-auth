@@ -9,7 +9,7 @@
   "values/defaultDatabase.json": {
     "value": "simple-auth"
   },
-  "data_sources/mongodb-atlas/simple-auth/**/rules.json": {
+  "data_sources/mongodb-atlas/**/**/rules.json": {
     "database": "simple-auth"
   }
 }

@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "pull": "realm-cli pull --remote=simple-auth-grnnh",
     "push": "realm-cli push --remote=simple-auth-grnnh",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "replace:prod": "ts-node --project config/scripts/tsconfig.json config/scripts/search-replace.ts config/realm_config/production.json config/realm_config packages/realm-backend production",
+    "replace:dev": "ts-node --project config/scripts/tsconfig.json config/scripts/search-replace.ts config/realm_config/development.json config/realm_config packages/realm-backend development"
   },
   "author": "",
   "license": "ISC",
