@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "pull": "realm-cli pull --remote=simple-auth-grnnh",
     "push": "realm-cli push --remote=simple-auth-grnnh",
     "tsc": "tsc",
