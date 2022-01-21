@@ -1,6 +1,6 @@
 {
     "collection": "User",
-    "database": "simple-auth-dev",
+    "database": "simple-auth",
     "roles": [
         {
             "name": "default",
